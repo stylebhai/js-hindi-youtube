@@ -37,4 +37,21 @@ let negValue = -value;
 
 //console.log(true);
 //console.log(+true);
-console.log(+"");
+//console.log(+"");
+
+let counter = 100;
+++counter;
+//console.log(counter);
+
+//dont do the following comparisons shown below//
+
+//console.log(null > 0);
+//console.log(null == 0);
+//console.log(null >= 0);
+
+//console.log(undefined > 0);
+//console.log(undefined == 0);
+//console.log(undefined < 0);
+
+console.log("2" === 2);
+
