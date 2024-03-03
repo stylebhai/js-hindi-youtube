@@ -33,4 +33,17 @@ const obj3 = {...obj1, ...obj2}
 //console.log(Object.keys(tinderUser));
 //console.log(Object.values(tinderUser))
 //console.log(Object.entries(tinderUser))
-console.log(tinderUser.hasOwnProperty('isLogged'))
+//console.log(tinderUser.hasOwnProperty('isLogged'))
+
+const course = {
+    coursename: "JS",
+    price: "999",
+    courseInstructor: "hitesh"
+} 
+
+//console.log(course.courseInstructor);
+
+//const {courseInstructor} = course
+//console.log(courseInstructor);
+const {courseInstructor: instructor} = course
+console.log(instructor);
